@@ -1,37 +1,43 @@
 import React from 'react'
 import Button from '../layout/Button'
 import BlogsCard from '../layout/BlogsCard'
+import img1 from '../assets/food.jpg'
+import img2 from '../assets/gym.jpg'
+import img3 from '../assets/care.jpg'
+import img4 from '../assets/stress.jpg'
+import img5 from '../assets/healthy.jpg'
+import img6 from '../assets/fitness.jpg'
 
 function Blogs() {
     const data=[
         {
           headlines:'Mindful Eating for Busy Lives',
-          img:'src/assets/food.jpg',
+          img:img1,
           description:'Discover practical tips and easy recipes to incorporate mindful eating habits into your hectic schedule, promoting better nutrition and overall well-being'  
         },
         {
             headlines:'Fitness Beyond the Gym',
-            img:'src/assets/gym.jpg',
+            img:img2,
             description:'Explore creative and enjoyable ways to stay active outside the traditional gym setting, making fitness an integral part of your daily life for improved physical and mental health.'
         },
         {
             headlines:'Holistic Self-Care Rituals',
-            img:'src/assets/care.jpg',
+            img:img3,
             description:'Dive into holistic self-care practices that nurture your mind, body, and soul. From relaxation techniques to natural skincare, find inspiration for a well-rounded and sustainable self-care routine.'
         },
         {
             headlines:'Navigating Stress: A Comprehensive Guide',
-            img:'src/assets/stress.jpg',
+            img:img4,
             description:'Learn effective strategies to manage stress in various aspects of life. From workplace stress to personal challenges, discover practical solutions for maintaining mental and emotional balance.'
         },
         {
             headlines:'Seasonal Eating for Health',
-            img:'src/assets/healthy.jpg',
+            img:img5,
             description:'Explore the benefits of aligning your diet with the seasons. Learn about nutrient-rich seasonal foods and how they can contribute to your overall health and well-being throughout the year'
         },
         {
             headlines:'Family Fitness Fun',
-            img:'src/assets/fitness.jpg',
+            img:img6,
             description:'Embrace a healthy lifestyle as a family with engaging fitness activities for all ages. Discover enjoyable ways to bond while promoting physical activity, fostering a culture of health within your household.'
         },
 

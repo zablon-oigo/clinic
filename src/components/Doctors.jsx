@@ -3,6 +3,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React, { useRef } from 'react'
 import { FaArrowLeft,FaArrowRight } from "react-icons/fa";
+import doc1 from "../assets/doc1.jpg";
+import doc2 from "../assets/doc2.jpg";
+import doc3 from "../assets/doc3.jpg";
+import doc4 from "../assets/doc4.jpg";
+import doc5 from "../assets/doc5.jpg";
+import doc6 from "../assets/doc6.jpg";
 function Doctors() {
     const slider = useRef(null);
 
@@ -47,37 +53,37 @@ function Doctors() {
             index:1,
             name:'Dr. John Doe',
             speciality:'Cardiology',
-            img:'src/assets/doc6.jpg'
+            img:doc6
         },
         {
             index:2,
             name:'Dr. Jane Smith',
             speciality:'Dermatology',
-            img:'src/assets/doc2.jpg'
+            img:doc2
         },
         {
             index:3,
             name:'Dr. Michael Johnson',
             speciality:'Neurology',
-            img:'src/assets/doc3.jpg'
+            img:doc3
         },
         {
             index:4,
             name:'Dr. Emily Davis',
             speciality:'Orthopedics',
-            img:'src/assets/doc4.jpg'
+            img:doc4
         },
         {
             index:5,
             name:'Dr. William Wilson',
             speciality:'Gastroenterology',
-            img:'src/assets/doc5.jpg'
+            img:doc5
         },
         {
             index:6,
             name:'Dr. Olivia Taylor',
             speciality:'Pulmonology',
-            img:'src/assets/doc1.jpg'
+            img:doc1
         }
     ]
   return (
