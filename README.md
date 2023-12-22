@@ -36,5 +36,6 @@ Start the server
 ```
 
 ## Screenshots
-![Screenshot 2023-12-22 at 13-38-00 Afya Clinic](https://github.com/zablon-oigo/clinic/assets/143833326/a3773e2c-ce3d-47f4-8694-af9d9b4a9b51)
+
+![Screenshot 2023-12-22 at 14-00-41 Afya Clinic](https://github.com/zablon-oigo/clinic/assets/143833326/e265ffa9-2b52-4d2e-96ee-4f59f1714faa)
 
