@@ -4,7 +4,7 @@ import { AiOutlineMenu } from 'react-icons/ai';
 import { AiOutlineClose } from 'react-icons/ai';
 import { useState } from 'react';
 import Contact from './Contact';
-
+import logo from '../assets/healthcare.png'
 function Navbar() {
     const[menu,setMenu]=useState(false)
     const[showForm, setShowForm]=useState(false)
@@ -26,8 +26,10 @@ function Navbar() {
     <div className='relative z-10  bg-teal-500 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]'>
       <nav className="flex flex-row items-center justify-between text-white p-6 md:mx-32 mx-5 ">
         <div className="">
-          <Link to={'/'} smooth={true} spy={true} duration={500}  className='cursor-pointer text-3xl font-semibold'>
-            <h1>Afya Clinic</h1>
+          <Link to={'/'} smooth={true} spy={true} duration={500}  className='cursor-pointer text-3xl font-semibold font-sans'>
+            <div className="flex items-center gap-2">
+            <h1>Afya Clinic</h1> <img src={logo} alt="" className="w-[60px] h-[60px]" />
+            </div>
           </Link>
         </div>
         <div className="text-xl  gap-8 hidden md:flex flex-row items-center justify-between ">
@@ -59,9 +61,9 @@ function Navbar() {
             </button>
         </div>
       </nav>
-      <section className={`${menu?'translate-x-0':'-translate-x-full'} absolute top-[78px] right-0 w-full transition-transform duration-500 h-screen  bg-black  z-[-1] text-white  p-8`}>
+      <section className={`${menu?'translate-x-0':'-translate-x-full'} absolute top-[90px] right-0 w-full transition-transform duration-500 h-screen  bg-black  z-[-1] text-white  p-8`}>
       <div className="text-5xl  gap-12  flex flex-col items-center justify-center ">
-          <Link to={'home'} smooth={true} spy={true} duration={500} onClick={closeMenu} className='cursor-pointer hover:text-teal-600 hover:delay-300 transition-all hover:duration-500'>
+          <Link to={'home'} smooth={true} spy={true} duration={500} onClick={closeMenu} className='cursor-pointer hover:text-teal-600 hover:delay-300 transition-all hover:duration-500 '>
             <h1>Home</h1>
           </Link>
           <Link to={'about'} smooth={true} spy={true} duration={500} onClick={closeMenu} className='cursor-pointer hover:text-teal-600 hover:delay-300 transition-all hover:duration-500'>
